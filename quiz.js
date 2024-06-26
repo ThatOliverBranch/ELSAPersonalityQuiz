@@ -1794,10 +1794,10 @@ getNewQuestion = () => {
         //go to the end page
         getResult();
     };
-    document.getElementById('bg').src = bg[questionCounter];
     currentQuestion = availableQuestions[questionCounter];
     question.innerText = currentQuestion.question;
     questionNumber.innerText = currentQuestion.questionNumber;
+    document.getElementById('bg').src = bg[questionCounter];
 
     questionCounter++;
 
