@@ -1,0 +1,49 @@
+.imageTCO {
+    width: 20rem;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 1.75rem;
+}
+
+p {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.descTCO {
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.signUpBtn {
+    font-family: Tahoma, Aharoni, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    width: 18rem;
+    text-align: center;
+    background-color: #FF2273;
+    border: 0rem;
+    border-radius: 6rem;
+    box-shadow: #00BFC3 0.75rem 0.75rem 0 0, #FFD33B 1.5rem 1.5rem 0 0;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.signUpBtn:hover {
+    background-color: #ff75a8;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.5), #00BFC3 0.75rem 0.75rem 0 0, #FFD33B 1.5rem 1.5rem 0 0;
+    transform: translateY(-0.1rem);
+    transition: transform 300ms;
+}
+
+.signUpBtn:active {
+  transform: translate(0, 0.2rem);
+  transition: transform 50ms;
+}

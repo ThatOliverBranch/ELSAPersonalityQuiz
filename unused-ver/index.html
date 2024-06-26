@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELSA Personality Quiz</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+            <br>
+            <br>
+            <h1 style="text-align: center;">IS THIS <span class="pink">YOU</span>...?</h1>
+            <p class="bold">What <span class="blue">type</span> of <span class="yellow">committee</span> are <span class="pink">you</span>?</p>
+            <hr>
+            <p class="bold"><span class="blue">E</span><span class="yellow">L</span><span class="pink">S</span><span class="yellow">A</span> is recruiting <span class="blue bold">new committee</span>!</p>
+            <p style="margin: 1rem;"></p>
+            <p class="bold">See where you fit in a committee</p>
+            <p class="bold">with this <span class="bold"><span class="pink">personality </span><span class="yellow">quiz</span>!</span></p>
+            <div class="textbox"><span class="bold" style="color:black;">Go through your <span class="blue">first class</span> of the semester and find out which of the <span class="pink">six types</span> of committee you are!</span></div>
+            <p class="bold"><span class="pink">Don't</span> forget to <span class="yellow">tag</span> us at</p>
+            <a class="bold" href="https://www.instagram.com/elsaucsiuniversity/">@<span class="blue">elsa</span><span class="yellow">ucsi</span><span class="pink">university</span>!</a>
+            <a class="startBtn" onclick="start()">START</a>
+            <h7 style="margin: 0rem; margin-top: 2rem;">© 2024 English Language Student Association UCSI University</h7>
+        </div>
+    </div>
+    <!--Quiz Segment-->    
+    <div id="game" class="justify-center flex-column" style="display: none;">
+        <br>
+        <br>
+        <h6 class="questionNumber" id="questionNumber">Question Num</h6>
+        <span class="question" id="question">You are tasked with making questions. What questions do you create?</span>
+        <br>
+        <div class="choice-container">
+            <p class="choice-text" data-number="1">Choice 1</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-text" data-number="2">Choice 2</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-text" data-number="3">Choice 3</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-text" data-number="4">Choice 4</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-text" data-number="5">Choice 5</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-text" data-number="6">Choice 6</p>
+        </div>
+        <h7 style="margin-top: 1.5rem;">© 2024 English Language Student Association UCSI University</h7>
+    </div>
+    <div class="container">
+        <div id="special" class="flex-center flex-column" style="display: none;">
+            <h1 style="font-size: 7rem; margin-bottom: 0;">PSST...</h1>
+            <h6 style="margin: 0rem;"><span class="yellow">Interested</span> to <span class="pink">join</span> our <span class="blue">committee</span>?</h6>
+            <br>
+            <img class="imageTCO" src="photos/chosenOne.png">
+            <h4 style="margin: 1.5rem 0 0.5rem 0;"><span class="pink">THE</span> <span class="yellow">CHOSEN</span> <span class="blue">ONE</span></h4>
+            <div class="descTCO">
+                <p><span class="blue">E</span><span class="yellow">L</span><span class="pink">S</span><span class="yellow">A</span> is planning a <span class="pink">movie night</span> and we want <span class="yellow">YOU</span> on our <span class="blue">committee</span>!</p>
+                <br>
+                <p>Let us <span class="blue">guide</span> you and <span class="pink">join us</span> for some <span class="yellow">fun</span> while you try out event organization!</p>
+            </div>
+            <a href="https://forms.gle/WFFrukYkkMFsxRVx6" class="signUpBtn">SIGN UP HERE</a>
+            <h7 style="margin: 0.5rem; margin-top: 1.5rem;">© 2024 copyrigthtedddd</h7>
+        </div>
+    </div>
+    <script src="quiz2.js"></script>
+</body>
+</html>
