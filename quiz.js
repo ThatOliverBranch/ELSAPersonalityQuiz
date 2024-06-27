@@ -347,7 +347,7 @@ tiebreaker4D = () => {
         } else if ( i == 3 ) {
             return window.location.assign("/ELSAPersonalityQuiz/sugarParent.html");
         } else {
-            return window.location.assign("/tacticalPplPleaser.html");
+            return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
         };
     } else if ( score4D == scoreDV && score4D == scoreML && score4D == scoreSP && score4D == scorePP && score4D != scoreBR ) {
         let i =  Math.floor(Math.random() * 5 );
