@@ -13,6 +13,7 @@ let scoreSP = 0;
 let scorePP = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+
 let i = 0;
 let bg = [
     'photos/q1BG.png',
@@ -152,6 +153,9 @@ let questions = [
 
 //CONSTANTS
 const MAX_QUESTIONS = 10;
+question.innerText = questions[0].question;
+questionNumber.innerText = questions[0].questionNumber;
+document.getElementById('bg').src = bg[0];
 
 startGame = () => {
     questionCounter = 0;
