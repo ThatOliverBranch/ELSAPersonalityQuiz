@@ -164,6 +164,10 @@ startGame = () => {
     availableQuestions = [...questions];
     getNewQuestion();
     i = 0;
+    currentQuestion = availableQuestions[questionCounter];
+    question.innerText = currentQuestion.question;
+    questionNumber.innerText = currentQuestion.questionNumber;
+    document.getElementById('bg').src = bg[questionCounter];
 };
 
 tiebreaker4D = () => {
@@ -1848,5 +1852,4 @@ choices.forEach(choice => {
     });
 });
 
-location.reload();
 startGame();
