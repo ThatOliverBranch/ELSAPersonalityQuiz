@@ -17,6 +17,8 @@
 
 .choice-container:active {
     background-color: #FFD33B;
+    transform: translate(0, 0.2rem);
+    transition: transform 50ms;
 }
 
 .choice-container:focus {
