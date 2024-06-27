@@ -5,15 +5,14 @@ const bgPhoto = document.getElementById("bg")
 
 let currentQuestion = {};
 let acceptingAnswers = false;
-let score4D = 0;
-let scoreBR = 0;
-let scoreDV = 0;
-let scoreML = 0;
-let scoreSP = 0;
-let scorePP = 0;
-let questionCounter = 0;
+let score4D
+let scoreBR
+let scoreDV
+let scoreML
+let scoreSP
+let scorePP
+let questionCounter
 let availableQuestions = [];
-
 let i = 0;
 let bg = [
     'photos/q1BG.png',
@@ -153,9 +152,6 @@ let questions = [
 
 //CONSTANTS
 const MAX_QUESTIONS = 10;
-question.innerText = questions[0].question;
-questionNumber.innerText = questions[0].questionNumber;
-document.getElementById('bg').src = bg[0];
 
 startGame = () => {
     questionCounter = 0;
