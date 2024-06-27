@@ -1848,4 +1848,5 @@ choices.forEach(choice => {
     });
 });
 
+location.reload();
 startGame();
