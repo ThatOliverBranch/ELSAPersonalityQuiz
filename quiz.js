@@ -913,7 +913,7 @@ tiebreakerML = () => {
         } else {
             return window.location.assign("/ELSAPersonalityQuiz/sugarParent.html");
         };
-    } else if ( (scoreML == scoreBR) && (scoreML == scoreDV) && (scoreML == score4D) && (scoreML == scorePP) && (scoreML != scoreSP ) {
+    } else if ( (scoreML == scoreBR) && (scoreML == scoreDV) && (scoreML == score4D) && (scoreML == scorePP) && (scoreML != scoreSP) ) {
         let i =  Math.floor(Math.random() * 5 );
         if ( i == 0 ) {
             return window.location.assign("/ELSAPersonalityQuiz/4DChessmaster.html");
@@ -926,7 +926,7 @@ tiebreakerML = () => {
         } else {
             return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
         };
-    } else if ( (scoreML == scoreBR) && (scoreML == score4D) && (scoreML == scoreSP) && (scoreML == scorePP) && (scoreML != scoreDV ) {
+    } else if ( (scoreML == scoreBR) && (scoreML == score4D) && (scoreML == scoreSP) && (scoreML == scorePP) && (scoreML != scoreDV) ) {
         let i =  Math.floor(Math.random() * 5 );
         if ( i == 0 ) {
             return window.location.assign("/ELSAPersonalityQuiz/4DChessmaster.html");
