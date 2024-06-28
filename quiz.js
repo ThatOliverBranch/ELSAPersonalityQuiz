@@ -1762,6 +1762,7 @@ getResult = () => {
     } else if ((scoreDV >= score4D) && (scoreDV >= scoreBR) && (scoreDV >= scoreML) && (scoreDV >= scoreSP) && (scoreDV >= scorePP)) {
         if ( scoreDV == score4D || scoreBR || scoreML || scoreSP || scorePP ) {
             tiebreakerDV();
+            question.innerText = "Crime";
         } else {
             return window.location.assign("/ELSAPersonalityQuiz/daVinky.html");
         };
