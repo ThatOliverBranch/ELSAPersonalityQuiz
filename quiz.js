@@ -1785,7 +1785,7 @@ getResult = () => {
         return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
         };
     } else {
-
+            question.innerText = "Crime";
     };
 };
 
