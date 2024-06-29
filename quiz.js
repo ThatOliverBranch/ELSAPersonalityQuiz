@@ -1661,6 +1661,173 @@ tiebreaker = () => {
             return window.location.assign("/tacticalPplPleaser.html");
         };
     }
+    //four way ties
+    else if ( (score4D == scoreBR) && (score4D == scoreDV) && (score4D == scoreML) && (score4D != (scoreSP || scorePP)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/4DChessmaster.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/biggestRizzler.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/daVinky.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/maleLead2.html");
+        };
+    } else if ( (score4D == scoreBR) && (score4D == scoreDV) && (score4D == scoreSP) && (score4D != (scoreML || scorePP)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/4DChessmaster.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/biggestRizzler.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/daVinky.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/sugarParent.html");
+        };
+    } else if ( (score4D == scoreBR) && (score4D == scoreDV) && (score4D == scorePP) && (score4D != (scoreML || scoreSP)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/4DChessmaster.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/biggestRizzler.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/daVinky.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
+        };
+    } else if ( (score4D == scoreBR) && (score4D == scoreML) && (score4D == scoreSP) && (score4D != (scoreDV || scorePP)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/4DChessmaster.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/biggestRizzler.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/maleLead2.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/sugarParent.html");
+        };
+    } else if ( (score4D == scoreBR) && (score4D == scoreML) && (score4D == scorePP) && (score4D != (scoreDV || scoreSP)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/4DChessmaster.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/biggestRizzler.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/maleLead2.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
+        };
+    } else if ( (score4D == scoreBR) && (score4D == scoreSP) && (score4D == scorePP) && (score4D != (scoreDV || scoreML)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/4DChessmaster.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/biggestRizzler.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/sugarParent.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
+        };
+    } else if ( (score4D == scoreDV) && (score4D == scoreML) && (score4D == scoreSP) && (score4D != (scoreBR || scorePP)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/4DChessmaster.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/daVinky.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/maleLead2.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/sugarParent.html");
+        };
+    } else if ( (score4D == scoreDV) && (score4D == scoreML) && (score4D == scorePP) && (score4D != (scoreBR || scoreSP)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/4DChessmaster.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/daVinky.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/maleLead2.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
+        };
+    } else if ( (score4D == scoreDV) && (score4D == scoreSP) && (score4D == scorePP) && (score4D != (scoreBR || scoreML)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/4DChessmaster.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/daVinky.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/sugarParent.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
+        };
+    } else if ( (score4D == scoreML) && (score4D == scoreSP) && (score4D == scorePP) && (score4D != (scoreBR || scoreDV)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/4DChessmaster.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/maleLead2.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/sugarParent.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
+        };
+    } else if ( (scoreBR == scoreDV) && (scoreBR == scoreML) && (scoreBR == scoreSP) && (scoreBR != (score4D || scorePP)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/biggestRizzler.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/daVinky.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/maleLead2.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/sugarParent.html");
+        };
+    } else if ( (scoreBR == scoreDV) && (scoreBR == scoreML) && (scoreBR == scorePP) && (scoreBR != (score4D || scoreSP)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/biggestRizzler.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/daVinky.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/maleLead2.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
+        };
+    } else if ( (scoreBR == scoreDV) && (scoreBR == scoreSP) && (scoreBR == scorePP) && (scoreBR != (score4D || scoreML)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/biggestRizzler.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/daVinky.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/sugarParent.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
+        };
+    } else if ( (scoreBR == scoreML) && (scoreBR == scoreSP) && (scoreBR == scorePP) && (scoreBR != (score4D || scoreDV)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/biggestRizzler.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/maleLead2.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/sugarParent.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
+        };
+    } else if ( (scoreDV == scoreML) && (scoreDV == scoreSP) && (scoreDV == scorePP) && (scoreDV != (score4D || scoreBR)) ) {
+        let i =  Math.floor(Math.random() * 4 );
+        if ( i == 0 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/daVinky.html");
+        } else if ( i == 1 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/maleLead2.html");
+        } else if ( i == 2 ) {
+            return window.location.assign("/ELSAPersonalityQuiz/sugarParent.html");
+        } else {
+            return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
+        };
+    }
     //five way ties
     else if ( score4D == scoreBR && score4D == scoreDV && score4D == scoreML && score4D == scoreSP && score4D != scorePP ) {
         let i =  Math.floor(Math.random() * 5 );
