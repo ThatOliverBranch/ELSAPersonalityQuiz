@@ -228,3 +228,141 @@ p {
     height:1.15em;
     transform:rotate(45deg) skewX(22.5deg) skewY(22.5deg);
 }
+
+@media (prefers-color-scheme: light) {
+    table {
+        color: white;
+    }
+
+    td, tr{
+        color: white;
+    }
+    
+    .tapCircle {
+        background-color: #00BFC3;
+        box-shadow: #FFD33B 0 0.5rem ;
+        color: black;
+    }
+
+    .whiteboxL {
+        background-color: white;
+    }
+
+    .whiteboxR {
+        background-color: white;
+        border: solid black;
+        box-shadow: #FF2273 0 0.75rem;
+        color: black;    
+    }
+
+    .whitebar {
+        background-color: white;
+        color: black;
+    }
+
+    .whitebar > span {
+        color: black;
+    }
+
+    .starGray:before{
+        background:#D9D9D9;
+    }
+
+    .starGray:after{
+        background:#D9D9D9;
+    }
+
+    .starBlue:before{
+        background:#00BFC3;
+    }
+
+    .starBlue:after{
+        background:#00BFC3;
+    }
+
+
+    .starYellow:before{
+        background:#FFD33B;
+    }
+
+    .starYellow:after{
+        background:#FFD33B;
+    }
+    
+    .starPink:before{
+        background:#FF2273;
+    }
+
+    .starPink:after{
+        background:#FF2273;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    table {
+        color: white;
+    }
+
+    td, tr{
+        color: white;
+    }
+    
+    .tapCircle {
+        background-color: #00BFC3;
+        box-shadow: #FFD33B 0 0.5rem ;
+        color: black;
+    }
+
+    .whiteboxL {
+        background-color: white;
+    }
+
+    .whiteboxR {
+        background-color: white;
+        border: solid black;
+        box-shadow: #FF2273 0 0.75rem;
+        color: black;    
+    }
+
+    .whitebar {
+        background-color: white;
+        color: black;
+    }
+
+    .whitebar > span {
+        color: black;
+    }
+
+    .starGray:before{
+        background:#D9D9D9;
+    }
+
+    .starGray:after{
+        background:#D9D9D9;
+    }
+
+    .starBlue:before{
+        background:#00BFC3;
+    }
+
+    .starBlue:after{
+        background:#00BFC3;
+    }
+
+
+    .starYellow:before{
+        background:#FFD33B;
+    }
+
+    .starYellow:after{
+        background:#FFD33B;
+    }
+    
+    .starPink:before{
+        background:#FF2273;
+    }
+
+    .starPink:after{
+        background:#FF2273;
+    }
+}
