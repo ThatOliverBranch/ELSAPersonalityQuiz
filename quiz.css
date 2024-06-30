@@ -85,3 +85,85 @@
 .selected {
     background-color: #FFD33B;
 }
+
+@media (prefers-color-scheme: light) {
+    .choice-container {
+        background-color: white;
+    }
+    
+    .choice-container:active {
+        background-color: #FFD33B;
+    }
+    
+    .choice-container:focus {
+        background-color: #FF2273;
+    }
+    
+    .choice-text {
+        color: black;
+    }
+    
+    .nQBtn {
+        background-color: #00BFC3;
+        box-shadow: #FFD33B 0.5rem 0.5rem 0 0, #FF2273 1rem 1rem 0 0;
+        color: black;
+    }
+    
+    .nQBtn:hover {
+        background-color: #3fd5d8;
+        box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.5), #FFD33B 0.5rem 0.5rem 0 0, #FF2273 1rem 1rem 0 0;
+    }
+
+    /* Question styles */
+    
+    #question {
+        color: white;
+    }
+    
+    /*NEW*/
+    
+    .selected {
+        background-color: #FFD33B;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .choice-container {
+        background-color: white;
+    }
+    
+    .choice-container:active {
+        background-color: #FFD33B;
+    }
+    
+    .choice-container:focus {
+        background-color: #FF2273;
+    }
+    
+    .choice-text {
+        color: black;
+    }
+    
+    .nQBtn {
+        background-color: #00BFC3;
+        box-shadow: #FFD33B 0.5rem 0.5rem 0 0, #FF2273 1rem 1rem 0 0;
+        color: black;
+    }
+    
+    .nQBtn:hover {
+        background-color: #3fd5d8;
+        box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.5), #FFD33B 0.5rem 0.5rem 0 0, #FF2273 1rem 1rem 0 0;
+    }
+
+    /* Question styles */
+    
+    #question {
+        color: white;
+    }
+    
+    /*NEW*/
+    
+    .selected {
+        background-color: #FFD33B;
+    }
+}
