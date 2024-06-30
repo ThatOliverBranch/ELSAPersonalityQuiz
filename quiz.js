@@ -2589,47 +2589,40 @@ getResult = () => {
     if ((score4D >= scoreBR) && (score4D >= scoreDV) && (score4D >= scoreML) && (score4D >= scoreSP) && (score4D >= scorePP)) {
         if ( score4D == (scoreBR || scoreDV || scoreML || scoreSP || scorePP) ) {
             tiebreaker4D(score4D, scoreBR, scoreDV, scoreML, scoreSP, scorePP);
-            question.innerText = "Crime4D";
         } else {
             return window.location.assign("/ELSAPersonalityQuiz/4DChessmaster.html");
         };
     } else if ((scoreBR >= score4D) && (scoreBR >= scoreDV) && (scoreBR >= scoreML) && (scoreBR >= scoreSP) && (scoreBR >= scorePP)) {
         if ( scoreBR == (score4D || scoreDV || scoreML || scoreSP || scorePP) ) {
             tiebreakerBR(score4D, scoreBR, scoreDV, scoreML, scoreSP, scorePP);
-            question.innerText = "CrimeBR";
         } else {
             return window.location.assign("/ELSAPersonalityQuiz/biggestRizzler.html");
         };
     } else if ((scoreDV >= score4D) && (scoreDV >= scoreBR) && (scoreDV >= scoreML) && (scoreDV >= scoreSP) && (scoreDV >= scorePP)) {
         if ( scoreDV == (score4D || scoreBR || scoreML || scoreSP || scorePP) ) {
             tiebreakerDV(score4D, scoreBR, scoreDV, scoreML, scoreSP, scorePP);
-            question.innerText = "CrimDV";
         } else {
             return window.location.assign("/ELSAPersonalityQuiz/daVinky.html");
         };
     } else if ((scoreML >= score4D) && (scoreML >= scoreBR) && (scoreML >= scoreDV) && (scoreML >= scoreSP) && (scoreML >= scorePP)) {
         if ( scoreML == (score4D || scoreBR || scoreDV || scoreSP || scorePP) ) {
             tiebreakerML(score4D, scoreBR, scoreDV, scoreML, scoreSP, scorePP);
-            question.innerText = "CrimeML";
         } else {
             return window.location.assign("/ELSAPersonalityQuiz/maleLead2.html");
         };
     } else if ((scoreSP >= score4D) && (scoreSP >= scoreBR) && (scoreSP >= scoreDV) && (scoreSP >= scoreML) && (scoreSP >= scorePP)) {
         if ( scoreSP == (score4D || scoreBR || scoreDV || scoreML || scorePP) ) {
             tiebreakerSP(score4D, scoreBR, scoreDV, scoreML, scoreSP, scorePP);
-            question.innerText = "CrimeSP";
         } else {
             return window.location.assign("/ELSAPersonalityQuiz/sugarParent.html");
         };
     } else if ((scorePP >= score4D) && (scorePP >= scoreBR) && (scorePP >= scoreDV) && (scorePP >= scoreML) && (scorePP >= scoreSP)) {
         if ( scorePP == (score4D || scoreBR || scoreDV || scoreML || scoreSP) ) {
             tiebreakerPP(score4D, scoreBR, scoreDV, scoreML, scoreSP, scorePP);
-            question.innerText = "CrimePP";
         } else {
         return window.location.assign("/ELSAPersonalityQuiz/tacticalPplPleaser.html");
         };
     } else {
-            question.innerText = "Crime";
     };
 };
 
@@ -2690,7 +2683,7 @@ choices.forEach(choice => {
         } else {
             alert("HOW TF-?!?!?!");
         };
-        console.log( score4D, scoreBR, scoreDV, scoreML, scoreSP, scorePP);
+        //console.log( score4D, scoreBR, scoreDV, scoreML, scoreSP, scorePP);
     });
 });
 
