@@ -81,6 +81,21 @@ p {
     right: -0.3rem;
 }
 
+.lines {
+    width: 3.5rem;
+    height: 3.5rem;
+    z-index: 15;
+    position: relative;
+    top: -0.8rem;
+    right: -6.7rem;
+    float: right;
+    border: none;
+}
+
+.linkIMG {
+    height: 6rem;
+}
+
 .whiteboxR {
   position: absolute;
 
