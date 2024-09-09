@@ -109,7 +109,7 @@ let questions = [
             choice3: "You are in charge of slides design, and you are prepared to blow the class away with more than just templates.",
             choice4: "You are the responsible free-rider, people say you don't try hard enough but they don't see the hard work you put in.",
             choice5: "You're the leading speaker, you delegate the tasks, and make sure everything is done.",
-            choice6: "You help tie up loose ends, double-heck thoroughly, second in command."
+            choice6: "You help tie up loose ends, double-check thoroughly, second in command."
         }
     },
     {
